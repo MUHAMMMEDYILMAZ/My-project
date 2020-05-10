@@ -1,0 +1,243 @@
+*{
+	       margin: auto;
+	       padding: auto;
+ }
+ 
+h1{        color:white;
+           text-align:center;
+	       background-image: url("tanitma.jpg");
+	       font-size:32px;
+		   padding:30px;
+  }
+#tanitma{
+	        text-align:center;
+	        color:blue;
+			border: solid 2px #16a085;
+			margin-top:15px
+			padding:10px;
+			font-size:15px;
+			font-family: verdana;
+            background:#bdc3c7;
+        }
+
+	
+#imag{	
+            background-image: url("renk.jpg");
+			 border: dotted 5px #273c75;
+     }
+	
+#spor{
+	        color: blue;
+	        background-image: url("barcelona.jpg");
+	        padding:34px;
+     }
+		
+#hobiler{
+	        background-image: url("satranc1.jpg");
+            padding: 50px
+        }
+
+#tabl{
+	
+            background-color:#f7f1e3;
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+    }		
+#tabl td, #tabl th {
+                      border: 2px solid #e1b12c;
+                      padding: 15px;
+} 
+#tabl tr:nth-child(even){background-color: #dcdde1;}
+#tabl tr:hover {background-color: #44bd32;}
+#tabl tr {
+             padding-top: 12px;
+             padding-bottom: 12px;
+             text-align: left;
+             background-color: #f5f6fa;
+             color: #34ace0;
+}
+#tabl1{
+background-color:#aaa69d;
+padding:85px;
+}
+#imaag{
+	         background:#F8EFBA;
+			 padding:30px;
+}
+#takim{
+	         color:#58B19F;
+	         padding:10px;
+			 border:3px solid #CAD3C8;
+}
+#takim1{
+	         color:#BDC581;
+	         padding:10px;
+			 border:3px solid #B33771;
+			 margin-top:5px;
+}
+#alt{
+	background-color:#ccae62;
+	padding:50px;
+}
+h2{
+	         color:#0097e6;
+	         padding:17px;
+	         text-align:center;
+             background-color:#40739e;
+  }
+
+.sh{
+	        background-color: #DDD;
+			
+			
+}
+
+.slider{    
+	        width:400px;
+			margin: auto;
+			overflow: hidden;
+}
+
+.slider ul {
+	            padding: 0;
+	            width: 2250px;			
+				list-style: none;
+				position:relative;
+				animation: sliding 10s ease-in-out infinite
+} 
+
+.slider ul li {
+	      			float: left;
+					position: relative;
+}
+
+img{
+	width: 400px;
+	height: 300px;
+}
+
+.slider h5 {
+	               margin:0;
+	               background: #474787;
+				   padding:5px;
+				   text-align:center;
+				   position:absolute;
+				   bottom:0;
+				   width:100%;
+				   color:#f7f1e3;
+}
+
+@keyframes sliding{
+	
+	                    5%,10%{left:0}
+					    15%,30%{left:-400px;}
+				        35%,50%{left:-800px;}
+		    	   	    55%,70%{left:-1200px;}  
+	     			    75%,90%{left:-1600px;}
+}
+
+#sehir{
+	  background-color: #DDD;
+	       font-size:20px;
+		   width:100%;
+		   border: solid 5px #aaa69d;
+		   padding:15px;
+		   margin:10px;
+		   color:#706fd3;
+}
+
+#gez{
+	  background-color: #DDD;
+	       font-size:20px;
+		   width:100%;
+		   border: solid 5px #f7f1e3;
+		   padding:15px;
+		   margin:10;
+		   color:#b33939;
+}
+
+.redcolor{
+	      color:red;
+}
+.liste{
+	    height:35px;
+	    width:100%;		
+		background:#aaa69d};
+  }
+  
+.liste #lise1{
+               float:left;
+}
+
+.liste ul {
+            margin:0;
+			padding:0;
+             float:left;
+             list-style-type:none;
+}
+
+.liste ul li{
+                   float:left;
+}				   
+.link1{
+	    display:inline-block;
+		padding:10px 10px;
+		height:10px;
+		line-height:10px;
+		text-decoration: none;
+		color:#fff;
+}
+
+  
+
+
+input[type=text], select, textarea {
+  width: 10%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.formm {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 30px;
+}
+
+	
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
